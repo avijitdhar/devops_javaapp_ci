@@ -1,0 +1,25 @@
+{
+    "jenkins-runner.hostConfigs": {
+        "local": {
+            "url": "http://172.18.239.162:8080",
+            "user": "Avijit",
+            "password": "Avijit@1981!",
+            "useCrumbIssuer": true
+                                                      
+        }
+                
+    },
+
+    "jenkins-runner.jobs": {
+        "devops-javaapp-ci": {
+            "isDefault": true,
+            "runWith": "local",
+            "name": "devops-javaapp-ci"
+        }
+       
+
+
+
+    }
+}
+
